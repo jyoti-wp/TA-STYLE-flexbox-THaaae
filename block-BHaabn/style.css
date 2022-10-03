@@ -1,0 +1,225 @@
+/* CSS reset */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+input {
+    border: 1px solid #b0b0b0;
+    padding: 3px 5px 4px;
+    color: #979797;
+    width: 190px;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+caption,
+th {
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+q:before,
+q:after {
+    content: '';
+}
+
+abbr,
+acronym {
+    border: 0;
+}
+
+* {
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+
+.header,
+.footer {
+    background-color: #222946;
+    padding: 20px 0px;
+}
+
+/* header,
+    {
+    overflow: hidden;
+    padding: 30px 10px;
+} */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header a,
+.footer a {
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    text-transform: capitalize;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a {
+    color: #53B668;
+}
+
+header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #53B668;
+}
+
+header a.active {
+    color: #53B668;
+}
+
+.gallery-section {
+    padding: 60px 0px;
+}
+
+.gallery-section h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.image-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galler-images {
+    width: 30%;
+    margin: 20px;
+}
+
+.galler-images img {
+    width: 100%;
+}
+
+/* /* .img-container {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+} */
+/* article section  */
+/* .article {
+    margin: 80px 0px;
+}
+
+.heading {
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.7;
+}
+
+.para {
+    margin-top: 20px;
+    line-height: 1.7;
+    font-size: 16px;
+    color: darkcyan;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.col {
+    margin: 20px;
+}
+
+.image-article {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid cadetblue;
+}
+
+/* gallery section  */
+
+/* .gallery {
+    background-color: aliceblue;
+    padding: 80px 0px;
+}
+
+.image {
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid;
+} */
