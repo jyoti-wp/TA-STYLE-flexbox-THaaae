@@ -156,7 +156,6 @@ header a.active {
 .heading {
     font-size: 32px;
     font-weight: 500;
-    margin: 20px 0px;
     text-align: center;
     line-height: 1.7;
 }
@@ -180,6 +179,7 @@ header a.active {
 .image-article {
     width: 100%;
     border-radius: 10px;
+    border: 1px solid cadetblue;
 }
 
 /* gallery section  */
@@ -190,6 +190,8 @@ header a.active {
 }
 
 .image {
-    width: 300px;
+    width: 350px;
     height: 200px;
+    border-radius: 10px;
+    border: 1px solid;
 }
