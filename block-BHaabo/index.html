@@ -1,8 +1,63 @@
-<!-- 
-- Create a page using flexbox according to the layout shown below.
+<!DOCTYPE html>
+<html lang="en">
 
-![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Flexbox - Assignment level III</title>
+</head>
 
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper. 
--->
+<body>
+    <header class="header">
+        <div class="container flex">
+            <div class="logo">
+                <a href="">Company Logo</a>
+            </div>
+            <nav>
+                <a href="">
+                    <img src="assets/icons/bell.svg" alt="notification">
+                </a>
+                <a href="">Sarah Jones</a>
+                <a href="">
+                    <img src="assets/icons/user.svg" alt="Users">
+                </a>
+            </nav>
+        </div>
+    </header>
+    <main class="section">
+        <div class="container flex">
+            <div class="aside">
+                <nav class="nav flex-column">
+                    <a href=""><img src="assets/icons/dashboard.svg" alt="">Dashboard</a>
+                    <a href=""><img src="assets/icons/article.svg" alt="">Artice</a>
+                    <a href=""><img src="assets/icons/analytics.svg" alt="">Analytics</a>
+                    <a href=""><img src="assets/icons/inbox.svg" alt="">Inbox</a>
+                    <a href=""><img src="assets/icons/setting.svg" alt="">Settings</a>
+                    <a href=""><img src="assets/icons/log-out.svg" alt="">Log-Out</a>
+                </nav>
+            </div>
+            <article class="article">
+                <div class="article-col">
+                    <img src="assets/01.png" alt="" class="image-article">
+                    <h2>Why are we doing Altcampus</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est commodi itaque sunt tenetur
+                        cupiditate animi non saepe illo iusto esse! Et dolores fugiat amet mollitia odio cum repellat
+                        quod eius! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iure et quas.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora corrupti veritatis eius
+                        praesentium ut! Ea deserunt minima nulla fugit sapiente voluptas maxime at consectetur nesciunt!
+                        Quas modi dolor sunt repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                        cum iusto nulla. Ullam voluptate, optio unde enim perferendis ipsum est veniam facilis
+                        repellendus minima! Dolorum sit aperiam eaque maxime corporis?
+                    </p>
+                    <button class="btn">Read More</button>
+                </div>
+            </article>
+        </div>
+    </main>
+</body>
+
+</html>
