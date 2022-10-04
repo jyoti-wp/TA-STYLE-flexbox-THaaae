@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/b4e2b9c29d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Flexbox - Assignment level III</title>
 </head>
@@ -15,12 +16,12 @@
             <div class="logo">
                 <a href="">Company Logo</a>
             </div>
-            <nav>
+            <nav class="nav">
                 <a href="">
                     <img src="assets/icons/bell.svg" alt="notification">
                 </a>
-                <a href="">Sarah Jones</a>
                 <a href="">
+                    <span>Sarah Jones</span>
                     <img src="assets/icons/user.svg" alt="Users">
                 </a>
             </nav>
@@ -28,25 +29,44 @@
     </header>
     <main class="section">
         <div class="container flex">
-            <div class="aside">
-                <nav class="nav flex-column">
-                    <a href=""><img src="assets/icons/dashboard.svg" alt="">Dashboard</a>
-                    <a href=""><img src="assets/icons/article.svg" alt="">Artice</a>
-                    <a href=""><img src="assets/icons/analytics.svg" alt="">Analytics</a>
-                    <a href=""><img src="assets/icons/inbox.svg" alt="">Inbox</a>
-                    <a href=""><img src="assets/icons/setting.svg" alt="">Settings</a>
-                    <a href=""><img src="assets/icons/log-out.svg" alt="">Log-Out</a>
+            <aside class="aside flex-column">
+                <nav class="nav-sidebar flex-column">
+                    <a href="">
+                        <img src="assets/icons/dashboard.svg" alt="">
+                        <span>Dashboard</span>
+                    </a>
+                    <a href="" class="active">
+                        <img src="assets/icons/article.svg" alt="">
+                        <span>Article</span>
+                    </a>
+                    <a href="">
+                        <img src="assets/icons/analytics.svg" alt="">
+                        <span>Analytics</span></a>
+                    <a href="">
+                        <img src="assets/icons/inbox.svg" alt="">
+                        <span>Inbox</span>
+                    </a>
+                    <a href="">
+                        <img src="assets/icons/setting.svg" alt="">
+                        <span>Settings</span>
+                    </a>
                 </nav>
-            </div>
+                <button class="logout-btn">
+                    <img src="assets/icons/log-out.svg" alt="">
+                    <span>Log Out</span>
+                </button>
+            </aside>
             <article class="article">
                 <div class="article-col">
                     <img src="assets/01.png" alt="" class="image-article">
-                    <h2>Why are we doing Altcampus</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est commodi itaque sunt tenetur
+                    <h2 class="heading">Why are we doing Altcampus</h2>
+                    <p class="para">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est commodi itaque sunt
+                        tenetur
                         cupiditate animi non saepe illo iusto esse! Et dolores fugiat amet mollitia odio cum repellat
                         quod eius! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iure et quas.
                     </p>
-                    <p>
+                    <p class="para">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora corrupti veritatis eius
                         praesentium ut! Ea deserunt minima nulla fugit sapiente voluptas maxime at consectetur nesciunt!
                         Quas modi dolor sunt repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
@@ -58,6 +78,19 @@
             </article>
         </div>
     </main>
+    <footer class="footer">
+        <div class="container flex">
+            <a href="">&copy;Altcampus</a>
+            <nav class="footer">
+                <a href="">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-square-twitter"></i>
+                </a>
+            </nav>
+        </div>
+    </footer>
 </body>
 
 </html>
